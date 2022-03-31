@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 92vh;
+    background:linear-gradient(rgba(97, 97, 97, 0.8), rgba(20,20,20,1)), url(wepik-2022217-144322.png);
+    background-position: center center;
+    background-size: cover;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+}
+
+header {
+    width: 100%;
+    height: 8vh;
+}
+
+.cabeçalho {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    color: beige;
+}
+
+.logo {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 800;
+}
+
+.menu-navegação {
+    display: flex;
+}
+   
+.menu-navegação-itens {
+    width: 100px;
+    height: 30px;
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3f3222;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: bold;
+    color: beige;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.texto {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: beige;
+}
+.texto-secundário {
+    font-size: 2rem;
+    font-family: 'Poiret One', cursive;
+    align-items: center;
+}
+
+.texto-principal {
+    font-size: 3rem;
+    font-family: 'Poiret One', cursive;
+    align-items: center;
+}    
+
+.icones {
+    width: 100px;
+    height: 180px;
+    position: relative;
+    left: 80px;
+}
+
+.icones-redes-sociais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    list-style: none;
+    padding-top: 10px;
+    font-size: 27px;
+}
+
+.icones-tipos {
+    color: #e7d03b;
+    cursor: pointer;
+}
+    
+
+    
