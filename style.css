@@ -53,6 +53,11 @@ main {
     display: flex;
     justify-content: center;
 }
+.conteudo {
+    width: 100%;
+    height: 500px;
+    background-color: aqua;
+}
 
 .texto {
     width: 100%;
@@ -61,6 +66,7 @@ main {
     justify-content: center;
     text-align: center;
     color: beige;
+    background-color: #e7d03b;
 }
 .texto-secundário {
     font-size: 2rem;
@@ -76,16 +82,18 @@ main {
 
 .icones {
     width: 100px;
-    height: 180px;
+    height: 200px;
     position: relative;
     left: 80px;
+    top: 150px;
+    background-color: grey;
 }
 
 .icones-redes-sociais {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 9px;
+    gap: 15px;
     list-style: none;
     padding-top: 10px;
     font-size: 27px;
@@ -94,6 +102,18 @@ main {
 .icones-tipos {
     color: #e7d03b;
     cursor: pointer;
+}
+
+.foto {
+    width: 320px;
+    height: 400px;
+    background-color: red;
+    background-image: url(foto-perfil.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 900px;
+    bottom: 200px;
 }
     
 
